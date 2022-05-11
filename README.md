@@ -36,9 +36,35 @@ New York State Shapefile
 
 ## Outputs
 ### *CSV Files*
-- forest_counties.csv
-- forest_data.csv
-- nys_poverty.csv
+1. forest_counties.csv
+    - Used for QGIS maps
+    -  Variables:
+        - county: county name
+        - STAND_BASA: The cross-sectional area of all stems of a species or all stems in a stand measured at breast height and expressed in sq/ft
+        - DIG_ACRES: Acreage of the stand as digitized
+        - DENSITY: Population density (per square mile)
+        - GEO_ID
+        - POP: population
+        - Poverty_Rate: Poverty rate (percent)
+2. forest_data.csv
+    - Variables:
+         - STAND_BASA: The cross-sectional area of all stems of a species or all stems in a stand measured at breast height and expressed in sq/ft
+        - DIG_ACRES: Acreage of the stand as digitized
+        - DIG_YEAR: Year of last adjustment to a State Forests stand boundaries
+        - TREE_TYPE1: The 3 species of greatest prominence in the stand. Tree type 1 would occupy the greatest percentage of the stand basal Area, followed by Tree type 2 etc
+        - CALC_FT: Primary forest cover type (sfid calculated)
+        - county: county name
+3. nys_poverty.csv
+    - Variables:
+        -  county: county name
+        - Poverty_Rate: Poverty rate (percent)
+4. population.csv
+    - Variables:
+        - DENSITY: Population density (per square mile)
+        - GEO_ID
+        - POP: population
+        - county: county name
+        - Poverty_Rate: Poverty rate (percent)
 
 ### *Graphs*
 - acres_dense_counties.png

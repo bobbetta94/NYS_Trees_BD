@@ -35,7 +35,7 @@ county_final = county_joined.str.title()
 
 
 # selects relevant columns to make a new dataframe
-forest_new = forest[['STAND_BASA', 'DIG_ACRES', 'DIG_YEAR', 'TREE_TYPE1', 'CALC_FT', 'geometry']].copy()
+forest_new = forest[['STAND_BASA', 'DIG_ACRES', 'DIG_YEAR', 'TREE_TYPE1', 'CALC_FT']].copy()
 forest_new['county'] = county_final
 forest_new.to_csv('forest_data.csv')
 
