@@ -1,4 +1,4 @@
-# NYS_Trees_BD_dev
+# Forest Cover in New York State Counties
 ## Introduction
 
 Forests are a great source of biodiversity. Biodiversity is the variety of life in an ecosystem. It is an important indicator of a healthy ecosystem. Forests also act as carbon sinks - storing more carbon than they release. This is important for the reduction of the effects of climate change. Carbon sinks also limit the amount of greenhouse gases released into the atmosphere, as long as the carbon stored is not released by people. 
